@@ -5,6 +5,8 @@ from services import scheduler
 
 api_checker = FastAPI()
 
+
+
 @api_checker.get("/status/{id}")
 async def website_status(id: int):
     website = await Website.select().where(id == Website.id)
@@ -15,4 +17,4 @@ async def website_status(id: int):
     result_status = scheduler.task_check_result(url_status, url)
     if result_status != 'Online!':
         raise HTTPException (status.HTTP_500_INTERNAL_SERVER_ERROR, detail ="Internal Server Error")
-    return result_status
+    return {'id': id, 'url': url, 'Status': result_status}
