@@ -11,8 +11,8 @@ One of the goal is that the user may select the period of time the server will t
 
 - [X] Add FastAPI.
 - [X] Add CRUD endpoints.
-- [X] Add Rocketry
-- [X] Task schedule to request websites.
+- [ ] Add a Scheduler
+- [ ] Task schedule to request websites.
 - [ ] Add a function that returns the log of a request, and the website requested in JSON format.
 - [ ] Add an endpoint to return log information detail.
 - [ ] Add email notifications using Red Email
