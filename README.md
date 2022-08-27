@@ -17,4 +17,4 @@ One of the goal is that the user may select the period of time the server will t
 - [ ] Add an endpoint to return log information detail.
 - [ ] Add email notifications using Red Email
 - [ ] Create frontend with Vuejs
-- [ ] Add autentication and autorization
+- [ ] Add authentication and authorization
