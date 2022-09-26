@@ -15,6 +15,6 @@ One of the goal is that the user may select the period of time the server will t
 - [ ] Task schedule to request websites.
 - [ ] Add a function that returns the log of a request, and the website requested in JSON format.
 - [ ] Add an endpoint to return log information detail.
-- [ ] Add email notifications using Red Email
+- [ ] Add email notifications using
 - [ ] Create frontend with Vuejs
 - [ ] Add authentication and authorization
