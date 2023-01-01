@@ -1,4 +1,4 @@
-# api_website_checker
+# api-website-checker
 An API written in Python using FastApi, Piccolo-ORM, and Rocketry to check the connectivity of websites.
 
 The goal of this API is that the user add the url of website, to check if the website is online. The server will check website's connectivity doing requets periodically.
